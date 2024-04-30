@@ -9,8 +9,12 @@
     max-width: 220px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+      
+}
+
+#sidebar-title{
+    height: 68px;
+    background-image: linear-gradient(to bottom, #FFB354, #EE7A3A);
 }
 
 #main{
