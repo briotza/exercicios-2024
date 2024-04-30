@@ -17,6 +17,7 @@
 #sidebar-title{
     display: flex;
     height: 68px;
+    max-height: 68px;
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(to bottom, #FFB354, #EE7A3A);
@@ -40,6 +41,7 @@
     display: flex;
     flex-direction: row;
     min-height: 68px;
+    max-height: 68px;
     background-color: #FDF1EB;
 }
 
