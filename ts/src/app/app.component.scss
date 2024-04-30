@@ -114,9 +114,19 @@
 }
 
 #welcome{
+    max-width: 163px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: flex-end;
+    font-family: "Quicksand", sans-serif;
+    
 }
+
+#welcome p {
+    margin: 0px
+}
+
+
 
 #btn-user, #btn-user img{
     position: relative;
