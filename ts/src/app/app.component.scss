@@ -1,9 +1,11 @@
+//Page
 #page {
     height: 100vh;
     display: flex;
     flex-direction: row;
 }
 
+//Sidebar
 #sidebar{
     min-width: 220px;
     max-width: 220px;
@@ -13,10 +15,18 @@
 }
 
 #sidebar-title{
+    display: flex;
     height: 68px;
+    align-items: center;
+    justify-content: center;
     background-image: linear-gradient(to bottom, #FFB354, #EE7A3A);
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 30px;
+    
 }
 
+//main
 #main{
     width: 1146px;
     min-width: auto;
