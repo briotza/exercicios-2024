@@ -187,4 +187,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 56px;
+}
+
+#btns-icons button, #btns-icons img{
+    height: 31px;
+    width: auto;
+    padding: 0px;
+    background-color: none;
+    border: none;
+    cursor: pointer;
+    margin-inline: 2.5px;
 }
