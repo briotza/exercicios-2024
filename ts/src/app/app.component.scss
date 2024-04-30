@@ -130,8 +130,6 @@
     margin: 0px
 }
 
-
-
 #btn-user, #btn-user img{
     position: relative;
     max-width: 48px;
@@ -161,5 +159,26 @@
     display: flex;
     flex-direction: column;
     min-width: fit-content;
+    padding-left: 36px;
+}
 
+#first-bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+#first-bottom-title {
+    color: #ED7839;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    min-width: 786px;
+    max-width: 786px;
+    min-height: 54px;
+    margin-top: 20px;
+}
+
+#first-bottom-title h2{
+   
+    font-size: 20px;
+  
 }
