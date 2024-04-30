@@ -220,7 +220,6 @@
 #details {
     width: 242px;
     height: 439px;
-    border: 2px solid lightgray;
     margin-left: 45px;
     line-height: 1.5;
 }
@@ -232,6 +231,7 @@
     color: #5C5C5C;
     max-height: 364px;
     overflow-y: auto;
+    border: 2px solid lightgray;
 }
 
 .topic-title{
@@ -240,7 +240,7 @@
     padding-left: 15px;
     color: #4E4E4E;
     background-color: #FDF1EB;
-    border-bottom: 2px solid lightgray;
+    border: 2px solid lightgray;
     font-family: "Roboto", sans-serif;
     padding-block: 10px;
 }
@@ -252,10 +252,13 @@
     max-height: 189px;
     flex-direction: column;
    margin-top: 30px;
-   border: 2px solid lightgray;
+   
    transition: max-height 0.3s ease;
 }
 
+#summary-content{
+    border: 2px solid lightgray;
+}
 #summary-content p{
     font-size: 14px;
     font-family: "Quicksand", sans-serif;
