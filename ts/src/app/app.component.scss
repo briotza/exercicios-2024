@@ -27,6 +27,24 @@
     font-family: "Roboto", sans-serif;
 }
 
+#sidebar button{
+    display: flex;
+    border:none;
+    background-color: #FFFFFF;
+    min-width: 220px;
+    max-width: 220px;
+    min-height: 35px;
+    max-height: 35px;
+    font-size: 15px;
+    font-family: "Quicksand", sans-serif;
+    color: #725C5C;
+    font-weight: bold;
+    border-bottom: 2px solid lightgray;
+    cursor: pointer;
+    padding-left: 24px;
+   
+}
+
 //main
 #main{
     width: 1146px;
