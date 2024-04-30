@@ -16,7 +16,7 @@
 
 #sidebar-title{
     display: flex;
-    height: 68px;
+    min-height: 68px;
     max-height: 68px;
     align-items: center;
     justify-content: center;
@@ -78,18 +78,20 @@
 #top-titles{
     color: #725C5C;
     font-family: "Roboto", sans-serif;
-    max-width: 643px;
+    min-width: 643px;
     max-height: 68px;
 }
 
 .small-top-title{
     font-size: 14px;
     margin-bottom: 0px;
+    max-height: 18px;
 }
 
 #big-top-title{
     font-size: 22px;
-    margin-bottom: 0px;
+    margin-bottom: -4px;
+    max-height: 64px;
 }
 
 #bottom{
