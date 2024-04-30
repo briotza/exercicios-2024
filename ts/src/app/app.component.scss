@@ -5,12 +5,16 @@
 }
 
 #sidebar{
+    min-width: 220px;
+    max-width: 220px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 #main{
+    min-width: auto;
+    max-width: auto;
     display: flex;
     flex-direction: column;
 }
