@@ -75,6 +75,7 @@
     min-height: 68px;
     max-height: 68px;
     background-color: #FDF1EB;
+    padding-left: 36px;
 }
 
 #top-titles {
@@ -99,6 +100,17 @@
 #user-settings{
     display: flex;
     flex-direction: row;
+}
+
+#language{
+    height: 34px;
+    width: 97px;
+    border: 1px solid #CCCCCC;
+    padding: 0px;
+    background-color: #FDF1EB;
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+    cursor: pointer;
 }
 
 #welcome{
