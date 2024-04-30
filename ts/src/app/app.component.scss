@@ -6,15 +6,15 @@
 }
 
 //Sidebar
-#sidebar{
+#sidebar {
     min-width: 220px;
     max-width: 220px;
     display: flex;
     flex-direction: column;
-      
+
 }
 
-#sidebar-title{
+#sidebar-title {
     display: flex;
     min-height: 68px;
     max-height: 68px;
@@ -27,9 +27,9 @@
     font-family: "Roboto", sans-serif;
 }
 
-#sidebar button{
+#sidebar button {
     display: flex;
-    border:none;
+    border: none;
     background-color: #FFFFFF;
     min-width: 220px;
     max-width: 220px;
@@ -49,25 +49,25 @@
 #sidebar-body .btn-trabalhos.custom-button {
     background-color: #FDF1EB;
     border-left: 5px solid;
-    border-image: linear-gradient(to bottom,  #FFB354, #EE7A3A);
+    border-image: linear-gradient(to bottom, #FFB354, #EE7A3A);
     border-image-slice: 0 0 0 1;
 }
 
-#sidebar-body .btn-contato.custom-button{
+#sidebar-body .btn-contato.custom-button {
     border-top: 2px solid lightgray;
 }
 
 //main
-#main{
+#main {
     width: 1146px;
     min-width: auto;
     max-width: auto;
     display: flex;
     flex-direction: column;
-   
+
 }
 
-#top{
+#top {
     display: flex;
     flex-direction: row;
     min-height: 68px;
@@ -75,28 +75,28 @@
     background-color: #FDF1EB;
 }
 
-#top-titles{
+#top-titles {
     color: #725C5C;
     font-family: "Roboto", sans-serif;
     min-width: 643px;
     max-height: 68px;
 }
 
-.small-top-title{
+.small-top-title {
     font-size: 14px;
     margin-bottom: 0px;
     max-height: 18px;
 }
 
-#big-top-title{
+#big-top-title {
     font-size: 22px;
     margin-bottom: -4px;
     max-height: 64px;
 }
 
-#bottom{
+#bottom {
     display: flex;
     flex-direction: column;
     min-width: fit-content;
-    
+
 }
