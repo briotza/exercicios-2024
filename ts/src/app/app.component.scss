@@ -208,6 +208,8 @@
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 14px;
+    height: 25px;
+    
 }
 
 #second-bottom{
@@ -219,11 +221,13 @@
     width: 242px;
     height: 439px;
     border: 2px solid lightgray;
-    margin-left: 30px;
+    margin-left: 45px;
 }
 
-#details p{
-    
+.topic-text p{
+    font-family: "Quicksand", sans-serif;
+    padding: 15px;
+    font-size: 12px;
 }
 
 .topic-title{
