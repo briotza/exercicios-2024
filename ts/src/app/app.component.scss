@@ -21,3 +21,15 @@
     flex-direction: column;
    
 }
+
+#top{
+    display: flex;
+    flex-direction: row;
+    min-height: 68px;
+    background-color: #FDF1EB;
+}
+
+#bottom{
+    display: flex;
+    flex-direction: column;
+}
