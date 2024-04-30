@@ -180,5 +180,11 @@
 
 #first-bottom-title h2{
     font-size: 20px;
-  
+}
+
+#first-bottom-options{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
