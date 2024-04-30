@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'DevChuva';
+  showMore = false;
+
+  readMore() {
+    this.showMore = !this.showMore;
+  }
 }
