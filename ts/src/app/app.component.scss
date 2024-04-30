@@ -100,6 +100,7 @@
 #user-settings{
     display: flex;
     flex-direction: row;
+    margin-left: auto;
 }
 
 #language{
@@ -114,7 +115,7 @@
 }
 
 #welcome{
-    max-width: 163px;
+    max-width: 164px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
