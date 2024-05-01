@@ -83,6 +83,10 @@
 
 }
 
+#hidden-sidebar{
+    display: none;
+}
+
 #top {
     width: 100%;
     display: flex;
@@ -619,6 +623,25 @@
 
     #sidebar{
         display:none
+    }
+
+    #hidden-sidebar{
+        display: flex;
+        height: 30px;
+        max-width: 100%;
+        min-width: 760px;
+    }
+
+    #open-sidebar{
+        background-image: linear-gradient(to bottom, #FFB354, #EE7A3A);
+        color: #FFFFFF;
+        border: 0px;
+        padding-block: 3px;
+        max-width: 100%;
+        min-width: 760px;
+        text-align: left;
+        font-family: "Roboto", sans-serif;
+        cursor: pointer;
     }
 
     #top{
