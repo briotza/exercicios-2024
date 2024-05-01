@@ -613,6 +613,10 @@
         height: auto;
     }
 
+    #bottom{
+        padding-left: 18px;
+    }
+
     #sidebar{
         display:none
     }
@@ -703,6 +707,7 @@
         min-width: 510px;
         max-width: 510px;
         height: auto;
+
     }
 
     #top{
@@ -746,6 +751,13 @@
         justify-content: space-between;
         min-height: fit-content;
         max-height: fit-content;
+    }
+
+    #third-bottom{
+        max-width: 450px;
+        min-width: 450px;
+        justify-content: space-between;
+        min-height: 350px;
     }
 
 }
