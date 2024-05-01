@@ -29,7 +29,7 @@
     font-family: "Roboto", sans-serif;
 }
 
-#sidebar button {
+#sidebar-body div {
     display: flex;
     border: none;
     background-color: #FFFFFF;
@@ -49,7 +49,7 @@
     border-right: 5px inset rgb(231, 226, 226);
 }
 
-#sidebar-body .btn-trabalhos.custom-button {
+#sidebar-body .btn-trabalhos.custom-div {
     background-color: #FDF1EB;
     border-left: 5px solid;
     border-image: linear-gradient(to bottom, #FFB354, #EE7A3A);
@@ -57,7 +57,7 @@
     border-right: 5px inset rgb(231, 226, 226);
 }
 
-#sidebar-body .btn-contato.custom-button {
+#sidebar-body .btn-contato.custom-div {
     border-top: 2px solid #BFBFBF;
 }
 
@@ -127,11 +127,14 @@
 }
 
 #language {
+    display: flex;
     height: 34px;
     width: 97px;
     border: 1px solid #CCCCCC;
     padding: 0px;
     background-color: #FDF1EB;
+    align-items: center;
+    justify-content: center;
     font-family: "Quicksand", sans-serif;
     font-size: 14px;
     cursor: pointer;
@@ -164,6 +167,8 @@
 
 #notification {
     position: absolute;
+    display: flex;
+    justify-content: center;
     right: 1px;
     border-radius: 100%;
     border: 0px;
@@ -174,6 +179,7 @@
     color: #FFFFFF;
     padding: 1px;
     padding-bottom: 4px;
+    margin-top: -33px;
 }
 
 #bottom {
@@ -212,7 +218,12 @@
     margin-top: 20px;
 }
 
-#btns-icons button,
+#btns-icons{
+    display: flex;
+    flex-direction: row;
+}
+
+#btns-icons div,
 #btns-icons img {
     height: 31px;
     width: auto;

@@ -6,53 +6,53 @@
         </div>
         <div id="sidebar-body">
             <img src="assets/dewey4.jpg" alt="13-slaca-logo">
-            <button>
+            <div>
                 <p>Apresentação</p>
-            </button>
-            <button>
+            </div>
+            <div>
                 <p>Comitês</p>
-            </button>
-            <button>
+            </div>
+            <div>
                 <p>Autores</p>
-            </button>
-            <button>
+            </div>
+            <div>
                 <p>Eixos Temáticos</p>
-            </button>
-            <button class="btn-trabalhos custom-button">
+            </div>
+            <div class="btn-trabalhos custom-div">
                 <p>Trabalhos</p>
-            </button>
-            <button class="btn-contato custom-button">
+            </div>
+            <div class="btn-contato custom-div">
                 <p>Contato</p>
-            </button>
+            </div>
         </div>
     </div>
     <!--Principal-->
     <div id="main">
         <!--Barra Lateral Escondida (telas menores)-->
         <div id="hidden-sidebar">
-            <button id="btn-open-sidebar" (click)="openHiddenBar()">
+            <div id="btn-open-sidebar" (click)="openHiddenBar()">
                 <img src="assets/menu-icon.png" alt="menu-icon" style="height: 25px;">SLACA 2019
-              </button>
+            </div>
         </div>
         <div id="navigation" *ngIf="hiddenBar">
-            <button>
+            <div>
                 <p>Apresentação</p>
-            </button>
-            <button>
+            </div>
+            <div>
                 <p>Comitês</p>
-            </button>
-            <button>
+            </div>
+            <div>
                 <p>Autores</p>
-            </button>
-            <button>
+            </div>
+            <div>
                 <p>Eixos Temáticos</p>
-            </button>
-            <button style="background-color: #f7d8c9;">
+            </div>
+            <div style="background-color: #f7d8c9;">
                 <p>Trabalhos</p>
-            </button>
-            <button>
+            </div>
+            <div>
                 <p>Contato</p>
-            </button>
+            </div>
         </div>
         <!--Barra Superior-->
         <div id="top">
@@ -62,17 +62,17 @@
                 <p class="small-top-title">ISSN: 1234-5678</p>
             </div>
             <div id="user-settings">
-                <button id="language">
+                <div id="language">
                     🌏 PT, BR ▼
-                </button>
+                </div>
                 <div id="welcome">
                     <p style="font-size: 14px;">Bem vindo!</p>
                     <p style="font-size: 12px;">alguem12&#64;galoascience.com</p>
                 </div>
-                <button id="btn-user">
+                <div id="btn-user">
                     <img src="assets/pessoa.jpeg" alt="imagem-usuario">
-                    <button id="notification">2</button>
-                </button>
+                    <div id="notification">2</div>
+                </div>
             </div>
         </div>
         <!--Parte inferior do Principal-->
@@ -85,9 +85,9 @@
                 </div>
                 <div id="first-bottom-options">
                     <div id="btns-icons">
-                        <button><img src="assets/download.jpeg" alt="icone-download"></button>
-                        <button><img src="assets/star.jpeg" alt="icone-favoritar"></button>
-                        <button><img src="assets/doi.jpeg" alt="icone-doi"></button>
+                        <div><img src="assets/download.jpeg" alt="icone-download"></div>
+                        <div><img src="assets/star.jpeg" alt="icone-favoritar"></div>
+                        <div><img src="assets/doi.jpeg" alt="icone-doi"></div>
                     </div>
                     <div id="question">
                         COMO CITAR ESSE TRABALHO?
@@ -188,11 +188,11 @@
                         Aliquam at
                         malesuada arcu. Aliquam erat volutpat. Donec varius ipsum purus, ut vehicula purus placerat
                         vitae. Lorem ipsum
-                        dolor sit amet, consectetur adipiscing elit.<button class="btn-see-less" id="read-more-btn"
+                        dolor sit amet, consectetur adipiscing elit.</p><div class="btn-see-less" id="read-more-btn"
                             (click)="readMore()">
                             {{ showMore ? 'ver menos' : 'Ler mais' }}
-                        </button><br><br>
-                    </p>
+                        </div><br><br>
+                    
 
 
                 </div>
@@ -222,16 +222,22 @@
                         </div>
                     </div>
                     <div id="suggestion" *ngIf="!showIdeas && createTopicClicked">
-                        <p style="align-self: center;">Tem uma dúvida ou sugestão? Compartilhe seu feedback com os
-                            autores!</p>
-                        <span>Assunto</span>
-                        <input type="text" class="subject"
-                            placeholder="Defina um tópico sucinto para notificar os autores...">
-                        <span>Conteúdo</span>
-                        <textarea id="longInput" cols="30" rows="10"></textarea>
-                        <div id="send">
-                            <button id="btn-send" (click)="send()">Enviar</button>
-                        </div>
+                        <form>
+                            <p style="text-align: center;">Tem uma dúvida ou sugestão? Compartilhe seu feedback com os
+                                autores!</p>
+                            <div style="display: flex; flex-direction: column;">
+                                <span>Assunto</span>
+                                <input type="text" class="subject"
+                                    placeholder="Defina um tópico sucinto para notificar os autores...">
+                            </div>
+                            <div style="display: flex; flex-direction: column;">
+                                <span>Conteúdo</span>
+                                <textarea id="longInput" cols="30" rows="10"></textarea>
+                            </div>
+                            <div id="send">
+                                <button id="btn-send" (click)="send()">Enviar</button>
+                            </div>
+                        </form>
                     </div>
                     <div id="topic-sent" *ngIf="!createTopicClicked && topicSent">
                         <span>Seu tópico foi enviado com sucesso! :D</span>
@@ -240,7 +246,7 @@
                         <p style="color: #F48F44; text-decoration: underline; margin-bottom: 30px;">Descubra outros
                             trabalhos</p>
                         <div class="relative" style="position: relative;">
-                            <button class="btn-create-new-topic" (click)="createTopic()">criar novo tópico</button>
+                            <button class="btn-create-topic" style="width: 200px;" (click)="createTopic()">criar novo tópico</button>
                         </div>
                     </div>
                     <div id="relative" style="position: relative; align-items: center; justify-content: center;">
@@ -278,7 +284,7 @@
                     </div>
 
                     <button class="answered-topic" (click)="openTopic()" *ngIf="topicClosed && !topicOpen">
-                        <span>Assunto da pergunta aparece aqui</span>
+                        <span class="ops-topic-subject">Assunto da pergunta aparece aqui</span>
                         <p style="font-size: 14px; color: #5C5C5C;"><strong>Carlos Henrique Santos</strong></p>
                         <p>Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão
                             e impacto
@@ -292,7 +298,7 @@
                     </button>
 
                     <button class="answered-topic" (click)="closeTopic()" *ngIf="!topicClosed && topicOpen">
-                        <span>Assunto da pergunta aparece aqui</span>
+                        <span class="ops-topic-subject">Assunto da pergunta aparece aqui</span>
                         <p style="font-size: 14px; color: #5C5C5C;"><strong>Carlos Henrique Santos</strong></p>
                         <p>Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão
                             e impacto
