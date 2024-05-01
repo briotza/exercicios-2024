@@ -622,6 +622,7 @@
     width: 1150px;
 }
 
+//tela max 1280px
 @media only screen and (max-width: 1280px) {
     #page {
         min-width: fit-content;
@@ -670,7 +671,7 @@
 
 }
 
-
+//tela max 768px
 @media only screen and (max-width: 768px) {
     #page {
         min-width: fit-content;
@@ -831,6 +832,7 @@
 
 }
 
+//tela max 510px
 @media only screen and (max-width: 510px) {
 
     #page,

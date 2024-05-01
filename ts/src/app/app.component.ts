@@ -45,7 +45,7 @@ export class AppComponent {
   }
 
   //abrir barra de navegação em telas menores
-  openHiddenBar(){
+  openHiddenBar() {
     this.hiddenBar = !this.hiddenBar;
   }
 }
