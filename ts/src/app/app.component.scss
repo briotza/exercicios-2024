@@ -29,7 +29,6 @@
     font-family: "Roboto", sans-serif;
 }
 
-
 #sidebar button {
     display: flex;
     border: none;
@@ -84,6 +83,10 @@
 }
 
 #hidden-sidebar{
+    display: none;
+}
+
+#navigation{
     display: none;
 }
 
@@ -632,7 +635,7 @@
         min-width: 760px;
     }
 
-    #open-sidebar{
+    #btn-open-sidebar{
         background-image: linear-gradient(to bottom, #FFB354, #EE7A3A);
         color: #FFFFFF;
         border: 0px;
@@ -641,6 +644,21 @@
         min-width: 760px;
         text-align: left;
         font-family: "Roboto", sans-serif;
+        cursor: pointer;
+    }
+
+    #navigation{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #navigation button{
+        height: 25px;
+        font-family: "Quicksand", sans-serif;
+        color: #725C5C;
+        background-color: #FFFFFF;
+        border: none;
+        border-bottom: 2px solid #BFBFBF;
         cursor: pointer;
     }
 
