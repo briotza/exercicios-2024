@@ -438,3 +438,33 @@
     font-family: "Quicksand", sans-serif;
     font-size: 16px;
 }
+
+#fake-topic{
+    margin-top: 20px;
+    max-width: 1140px;
+    min-width: 1140px;
+    height: fit-content;
+    align-self: center;
+    align-items: center;
+    border: 2px solid lightgray;
+    padding-top: 10px;
+}
+
+#fake-topic span{
+    color: #ED7839;
+    font-size: 18px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#fake-topic p{
+    color: #4D4D4D;
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
