@@ -10,6 +10,7 @@ export class AppComponent {
   showMore = false;
   showIdeas = true;
   createTopicClicked = false;
+  topicSent = false;
 
   readMore() {
     this.showMore = !this.showMore;
@@ -18,5 +19,10 @@ export class AppComponent {
   createTopic() {
     this.showIdeas = false;
     this.createTopicClicked = true;
+  }
+
+  send() {
+    this.createTopicClicked = false;
+    this.topicSent = true;
   }
 }
