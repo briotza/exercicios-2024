@@ -74,6 +74,7 @@
 
 //main
 #main {
+    //1146
     width: 1146px;
     min-width: auto;
     max-width: auto;
@@ -82,7 +83,7 @@
 
 }
 
-#hidden-sidebar{
+#hidden-sidebar {
     display: none;
 }
 
@@ -218,7 +219,7 @@
     margin-top: 20px;
 }
 
-#btns-icons{
+#btns-icons {
     display: flex;
     flex-direction: row;
 }
@@ -621,29 +622,78 @@
     width: 1150px;
 }
 
+@media only screen and (max-width: 1280px) {
+    #page {
+        min-width: fit-content;
+        max-width: 1280px;
+        height: auto;
+    }
+
+    #bottom {
+        padding-left: 18px;
+    }
+
+    #main {
+        width: 1060px;
+    }
+
+    #top {
+        max-width: 100%;
+        min-width: 1060px;
+        padding-left: 18px;
+    }
+
+    #user-settings {
+        margin-left: 50px;
+    }
+
+    #second-bottom iframe {
+        max-width: 750px;
+    }
+
+    #first-bottom,
+    #second-bottom,
+    #third-bottom,
+    #fourth-bottom,
+    #discussions,
+    .central,
+    #footer {
+        max-width: 1042px;
+        min-width: 1042px;
+    }
+
+
+    #first-bottom-options {
+        margin-left: 20px;
+    }
+
+
+}
+
+
 @media only screen and (max-width: 768px) {
-    #page{
+    #page {
         min-width: fit-content;
         max-width: 768px;
         height: auto;
     }
 
-    #bottom{
+    #bottom {
         padding-left: 18px;
     }
 
-    #sidebar{
-        display:none
+    #sidebar {
+        display: none
     }
 
-    #hidden-sidebar{
+    #hidden-sidebar {
         display: flex;
         height: 30px;
         max-width: 100%;
         min-width: 760px;
     }
 
-    #btn-open-sidebar{
+    #btn-open-sidebar {
         background-image: linear-gradient(to bottom, #FFB354, #EE7A3A);
         color: #FFFFFF;
         border: 0px;
@@ -655,14 +705,14 @@
         cursor: pointer;
     }
 
-    #navigation{
+    #navigation {
         display: flex;
         flex-direction: column;
         max-width: 100%;
         min-width: 100%;
     }
 
-    #navigation button{
+    #navigation button {
         text-align: left;
         max-width: 100%;
         min-width: 100%;
@@ -675,7 +725,7 @@
         cursor: pointer;
     }
 
-    #top{
+    #top {
         display: flex;
         flex-direction: column-reverse;
         align-items: flex-start;
@@ -686,7 +736,7 @@
         max-height: fit-content;
     }
 
-    #top-titles{
+    #top-titles {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -696,32 +746,33 @@
         max-height: fit-content;
     }
 
-    #small-top-title, #big-top-title {
+    #small-top-title,
+    #big-top-title {
         font-size: smaller;
         max-width: 400px;
         min-width: 400px;
         text-align: center;
-        
+
     }
 
-    #user-settings{
+    #user-settings {
         display: flex;
         flex-direction: row;
         margin-bottom: 20px;
         margin-top: 5px;
     }
 
-    #welcome{
+    #welcome {
         align-items: center;
     }
-    
-    #first-bottom-title{
+
+    #first-bottom-title {
         max-width: 500px;
         min-width: 500px;
     }
 
     #first-bottom,
-    #second-bottom{
+    #second-bottom {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -732,45 +783,48 @@
         max-height: fit-content;
     }
 
-    #first-bottom-options{
+    #first-bottom-options {
         margin-left: 0px;
     }
 
-    #second-bottom iframe{
+    #second-bottom iframe {
         max-width: 550px;
         height: 320px;
         margin-bottom: 20px;
     }
 
-    #details{
+    #details {
         align-self: center;
         margin-left: 0px;
     }
 
-    #third-bottom{
+    #third-bottom {
         max-width: 550px;
         min-width: 550px;
         justify-content: space-between;
         min-height: 300px;
     }
 
-    #fourth-bottom, #discussions, .central, #footer {
+    #fourth-bottom,
+    #discussions,
+    .central,
+    #footer {
         max-width: 550px;
         min-width: 550px;
     }
 
-    #ideas{
+    #ideas {
         max-width: 516px;
         min-width: 516px;
     }
 
-    #waiting-feedback{
+    #waiting-feedback {
         left: 100px;
         margin-left: 20px;
         top: 20px
     }
 
-    #footer{
+    #footer {
         margin-top: 5px;
     }
 
@@ -779,18 +833,19 @@
 
 @media only screen and (max-width: 510px) {
 
-    #page, #main {
+    #page,
+    #main {
         min-width: 510px;
         max-width: 510px;
         height: auto;
     }
 
-    #top{
+    #top {
         flex-direction: column-reverse;
         padding-left: 0px;
     }
 
-    #top-titles{
+    #top-titles {
         min-width: 510px;
         max-width: 510px;
         display: flex;
@@ -798,26 +853,26 @@
         align-items: center;
     }
 
-    #user-settings{
+    #user-settings {
         margin-left: 50px;
     }
 
-    #language{
+    #language {
         margin-left: 20px;
     }
 
-    #first-bottom-title{
+    #first-bottom-title {
         max-width: 400px;
         min-width: 400px;
     }
 
-    #second-bottom iframe{
+    #second-bottom iframe {
         max-width: 450px;
         height: 220px;
     }
 
     #first-bottom,
-    #second-bottom{
+    #second-bottom {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -828,24 +883,27 @@
         max-height: fit-content;
     }
 
-    #third-bottom{
+    #third-bottom {
         max-width: 450px;
         min-width: 450px;
         justify-content: space-between;
         min-height: 350px;
     }
 
-    #fourth-bottom, #discussions, .central, #footer {
+    #fourth-bottom,
+    #discussions,
+    .central,
+    #footer {
         max-width: 450px;
         min-width: 450px;
     }
 
-    #ideas{
+    #ideas {
         max-width: 416px;
         min-width: 416px;
     }
 
-    #waiting-feedback{
+    #waiting-feedback {
         left: 70px;
         margin-left: 0px;
         top: 20px
