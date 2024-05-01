@@ -346,13 +346,16 @@
 }
 
 .btn-create-topic {
+    position: absolute;
+    left: -64px;
+    width: 133px;
     background-image: linear-gradient(to bottom, #FFB354, #EE7A3A);
     color: #FFFFFF;
     font-family: "Quicksand", sans-serif;
     font-size: 17px;
     font-weight: bold;
     border: 0px;
-    border-radius: 1px;
+    border-radius: 3px;
     height: 34px;
     cursor: pointer;
 }
@@ -566,3 +569,5 @@
     margin-left: 25px;
     width: 1150px;
 }
+
+
