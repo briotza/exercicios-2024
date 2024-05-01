@@ -168,7 +168,7 @@
             <div id="fourth-bottom">
                 <div class="topic-title">Discussões</div>
                 <div id="discussions">
-                    <div id="ideas">
+                    <div id="ideas" *ngIf="showIdeas && !createTopicClicked">
                         <span>Compartilhe suas ideias ou dúvidas com os autores!</span>
                         <div id="image-ideas">
                             <img src="assets/colab.jpeg" alt="símbolo-colaboração">
@@ -177,9 +177,9 @@
                         </div>
                         <p>Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus
                             questionamentos ou sugestões para o autor!</p>
-                        <button class="btn-create-topic">+criar tópico</button>
+                        <button class="btn-create-topic" (click)="createTopic()">+criar tópico</button>
                     </div>
-                    <div id="suggestion">
+                    <div id="suggestion" *ngIf="!showIdeas && createTopicClicked">
                         <p style="align-self: center;">Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
                     </div>
                 </div>
