@@ -193,7 +193,14 @@
                         <span>Seu tópico foi enviado com sucesso! :D</span>
                         <p>Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!</p>
                         <p style="color: #F48F44; text-decoration: underline; margin-bottom: 30px;">Descubra outros trabalhos</p>
-                        <button class="btn-create-topic">criar novo tópico</button>
+                        <button class="btn-create-topic" (click)="createTopic()">criar novo tópico</button>
+                    </div>
+                    <div id="relative">
+                        <div id="waiting-feedback" *ngIf="!createTopicClicked && topicSent">
+                            <img src="assets/enviado.jpeg" alt="check">
+                            <p>Aguardando feedback dos autores</p>
+                            <span>Editar tópico</span>
+                        </div>
                     </div>
                 </div>
                 
