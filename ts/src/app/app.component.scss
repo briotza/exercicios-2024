@@ -62,14 +62,15 @@
     border-top: 2px solid #BFBFBF;
 }
 
-#sidebar-body, #sidebar img{
+#sidebar-body,
+#sidebar img {
     border-right: 5px inset rgb(231, 226, 226);
     border-radius: 7px;
-    
+
 }
 
-#sidebar img{
-    max-width:220px ;
+#sidebar img {
+    max-width: 220px;
 }
 
 //main
@@ -111,7 +112,7 @@
     max-height: 64px;
 }
 
-#user-settings{
+#user-settings {
     display: flex;
     flex-direction: row;
     margin-left: auto;
@@ -121,7 +122,7 @@
     margin-left: 110px;
 }
 
-#language{
+#language {
     height: 34px;
     width: 97px;
     border: 1px solid #CCCCCC;
@@ -132,7 +133,7 @@
     cursor: pointer;
 }
 
-#welcome{
+#welcome {
     max-width: 164px;
     display: flex;
     flex-direction: column;
@@ -145,7 +146,8 @@
     margin: 0px
 }
 
-#btn-user, #btn-user img{
+#btn-user,
+#btn-user img {
     position: relative;
     max-width: 48px;
     max-height: 30px;
@@ -156,7 +158,7 @@
     margin-left: 6.85px;
 }
 
-#notification{
+#notification {
     position: absolute;
     right: 1px;
     border-radius: 100%;
@@ -177,7 +179,7 @@
     padding-left: 36px;
 }
 
-#first-bottom{
+#first-bottom {
     display: flex;
     flex-direction: row;
 }
@@ -192,12 +194,12 @@
     margin-top: 20px;
 }
 
-#first-bottom-title h2{
+#first-bottom-title h2 {
     font-size: 20px;
     font-weight: 900;
 }
 
-#first-bottom-options{
+#first-bottom-options {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -206,7 +208,8 @@
     margin-top: 20px;
 }
 
-#btns-icons button, #btns-icons img{
+#btns-icons button,
+#btns-icons img {
     height: 31px;
     width: auto;
     padding: 0px;
@@ -223,10 +226,9 @@
     font-weight: 500;
     font-size: 14px;
     height: 25px;
-    
 }
 
-#second-bottom{
+#second-bottom {
     display: flex;
     flex-direction: row;
 }
@@ -238,7 +240,7 @@
     line-height: 1.5;
 }
 
-#details p{
+#details p {
     overflow-y: auto;
     font-family: "Quicksand", sans-serif;
     padding: 15px;
@@ -249,7 +251,7 @@
     border: 2px solid #BFBFBF;
 }
 
-.topic-title{
+.topic-title {
     font-size: 20px;
     font-weight: 500;
     padding-left: 15px;
@@ -262,7 +264,7 @@
 }
 
 
-#third-bottom{
+#third-bottom {
     display: flex;
     max-width: 1070px;
     min-width: 1070px;
@@ -271,12 +273,12 @@
     margin-top: 30px;
     overflow: hidden;
     transition: max-height 0.3s ease;
-   margin-bottom: 30px;
-   border-bottom: 2px solid #BFBFBF;
-   
+    margin-bottom: 30px;
+    border-bottom: 2px solid #BFBFBF;
+
 }
 
-#summary-content p{
+#summary-content p {
     font-size: 14px;
     font-family: "Quicksand", sans-serif;
     padding: 15px;
@@ -288,7 +290,8 @@
     border-bottom: none;
 }
 
-.btn-show-more, .btn-see-less{
+.btn-show-more,
+.btn-see-less {
     color: #ED7839;
     background-color: #FFFFFF;
     border: 0px;
@@ -297,15 +300,15 @@
     cursor: pointer;
 }
 
-#fourth-bottom{
+#fourth-bottom {
     display: flex;
     flex-direction: column;
     max-width: 1070px;
     min-width: 1070px;
-    
+
 }
 
-#discussions{
+#discussions {
     border: 2px solid #BFBFBF;
     align-self: center;
     align-items: center;
@@ -315,7 +318,7 @@
     min-width: 1070px;
 }
 
-#ideas{
+#ideas {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -338,6 +341,7 @@
     margin: 20px;
     width: 50px;
 }
+
 #ideas p {
     font-family: "Quicksand", sans-serif;
     color: #595959;
@@ -368,7 +372,7 @@
     cursor: pointer;
 }
 
-.btn-create-new-topic{
+.btn-create-new-topic {
     position: absolute;
     left: -114px;
     width: 235px;
@@ -383,7 +387,7 @@
     cursor: pointer;
 }
 
-#suggestion{
+#suggestion {
     display: flex;
     flex-direction: column;
     border-bottom: 2px solid #BFBFBF;
@@ -391,7 +395,7 @@
     margin-inline: 15px;
 }
 
-#suggestion span{
+#suggestion span {
     font-family: "Roboto", sans-serif;
     color: #ED7839;
     font-size: 20px;
@@ -400,7 +404,7 @@
     margin-bottom: 10px;
 }
 
-#suggestion p{
+#suggestion p {
     font-family: "Quicksand", sans-serif;
     color: #595959;
     font-size: 16px;
@@ -426,7 +430,7 @@
     height: 35px;
 }
 
-#btn-send{
+#btn-send {
     height: 35px;
     background-image: linear-gradient(to bottom, #FEB154, #F1833E);
     color: #FFFFFF;
@@ -438,7 +442,7 @@
     font-size: 17px;
 }
 
-#topic-sent{
+#topic-sent {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -448,7 +452,7 @@
     margin-inline: 15px;
 }
 
-#topic-sent span{
+#topic-sent span {
     font-family: "Roboto", sans-serif;
     color: #ED7839;
     font-size: 20px;
@@ -457,7 +461,7 @@
     margin-bottom: 10px;
 }
 
-#topic-sent p{
+#topic-sent p {
     font-family: "Quicksand", sans-serif;
     color: #595959;
     font-size: 16px;
@@ -465,14 +469,14 @@
     margin-bottom: 10px;
 }
 
-#waiting-feedback{
+#waiting-feedback {
     position: absolute;
     top: 50%;
     left: 36%;
     padding: 10px;
 }
 
-#waiting-feedback p{
+#waiting-feedback p {
     font-family: "Quicksand", sans-serif;
     color: #595959;
     font-size: 18px;
@@ -488,7 +492,7 @@
     font-size: 16px;
 }
 
-.fake-topic{
+.fake-topic {
     margin-top: 20px;
     margin-inline: 15px;
     max-width: 1066px;
@@ -499,7 +503,7 @@
     padding-top: 10px;
 }
 
-.fake-topic span{
+.fake-topic span {
     color: #ED7839;
     font-size: 18px;
     font-family: "Quicksand", sans-serif;
@@ -508,7 +512,7 @@
     padding-left: 15px;
 }
 
-.fake-topic p{
+.fake-topic p {
     color: #4D4D4D;
     font-size: 16px;
     font-family: "Quicksand", sans-serif;
@@ -518,7 +522,7 @@
     padding-left: 15px;
 }
 
-.interactions{
+.interactions {
     display: flex;
     flex-direction: row;
 }
@@ -600,5 +604,3 @@
     margin-left: 15px;
     width: 1150px;
 }
-
-
