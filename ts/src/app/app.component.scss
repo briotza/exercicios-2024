@@ -42,7 +42,7 @@
     font-family: "Quicksand", sans-serif;
     color: #725C5C;
     font-weight: bold;
-    border-bottom: 2px solid lightgray;
+    border-bottom: 2px solid #BFBFBF;
     cursor: pointer;
     margin-bottom: 0px;
     padding: 7px;
@@ -59,7 +59,7 @@
 }
 
 #sidebar-body .btn-contato.custom-button {
-    border-top: 2px solid lightgray;
+    border-top: 2px solid #BFBFBF;
 }
 
 #sidebar-body, #sidebar img{
@@ -246,7 +246,7 @@
     color: #5C5C5C;
     max-height: 439px;
     overflow-y: auto;
-    border: 2px solid lightgray;
+    border: 2px solid #BFBFBF;
 }
 
 .topic-title{
@@ -255,7 +255,7 @@
     padding-left: 15px;
     color: #4E4E4E;
     background-color: #FDF1EB;
-    border: 2px solid lightgray;
+    border: 2px solid #BFBFBF;
     border-bottom: none;
     font-family: "Roboto", sans-serif;
     padding-block: 10px;
@@ -272,7 +272,7 @@
     overflow: hidden;
     transition: max-height 0.3s ease;
    margin-bottom: 30px;
-   border-bottom: 2px solid lightgray;
+   border-bottom: 2px solid #BFBFBF;
    
 }
 
@@ -280,7 +280,7 @@
     font-size: 14px;
     font-family: "Quicksand", sans-serif;
     padding: 15px;
-    border: 2px solid lightgray;
+    border: 2px solid #BFBFBF;
 }
 
 #third-bottom.expanded {
@@ -306,7 +306,7 @@
 }
 
 #discussions{
-    border: 2px solid lightgray;
+    border: 2px solid #BFBFBF;
     align-self: center;
     align-items: center;
     justify-content: center;
@@ -320,7 +320,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-bottom: 2px solid lightgray;
+    border-bottom: 2px solid #BFBFBF;
     padding-bottom: 20px;
     margin-inline: 15px;
 }
@@ -360,7 +360,7 @@
 #suggestion{
     display: flex;
     flex-direction: column;
-    border-bottom: 2px solid lightgray;
+    border-bottom: 2px solid #BFBFBF;
     padding: 18px;
 }
 
@@ -389,7 +389,7 @@
     justify-content: flex-end;
     align-items: flex-end;
     background-color: #EAF1F2;
-    border: 1px solid lightgray;
+    border: 1px solid #BFBFBF;
     height: 35px;
 }
 
@@ -410,7 +410,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-bottom: 2px solid lightgray;
+    border-bottom: 2px solid #BFBFBF;
     padding-bottom: 20px
 }
 
@@ -461,7 +461,7 @@
     height: fit-content;
     align-self: center;
     align-items: center;
-    border: 2px solid lightgray;
+    border: 2px solid #BFBFBF;
     padding-top: 10px;
 }
 
@@ -501,7 +501,7 @@
     margin-inline: 15px;
     max-width: 1066px;
     align-items: left;
-    border: 2px solid lightgray;
+    border: 2px solid #BFBFBF;
     padding-top: 10px;
     background: none;
     cursor: pointer;
@@ -533,7 +533,7 @@
     margin-inline: 15px;
     max-width: 1066px;
     align-items: left;
-    border: 2px solid lightgray;
+    border: 2px solid #BFBFBF;
     padding-top: 10px;
     padding-bottom: 20px;
     border-top: none;
@@ -562,7 +562,7 @@
 
 #footer {
     margin-top: 50px;
-    border-top: 2px solid lightgray;
+    border-top: 2px solid #BFBFBF;
     margin-left: 25px;
     width: 1150px;
 }
