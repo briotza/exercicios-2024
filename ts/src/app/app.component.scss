@@ -608,8 +608,37 @@
 
 @media only screen and (max-width: 768px) {
 
+    
+
 }
 
 @media only screen and (max-width: 510px) {
+
+    #page, #main {
+        min-width: 510px;
+        max-width: 510px;
+        height: auto;
+    }
+
+    #top{
+        flex-direction: column-reverse;
+    }
+
+    #user-settings{
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+
+    #language{
+        margin-left: 20px;
+    }
+
+    #btn-user{
+        max-width: 0px;
+    }
+
+    .user{
+        max-width: 60px;
+    }
 
 }
