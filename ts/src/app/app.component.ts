@@ -8,8 +8,15 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'DevChuva';
   showMore = false;
+  showIdeas = true;
+  createTopicClicked = false;
 
   readMore() {
     this.showMore = !this.showMore;
+  }
+
+  createTopic() {
+    this.showIdeas = false;
+    this.createTopicClicked = true;
   }
 }
