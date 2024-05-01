@@ -662,9 +662,30 @@
     }
 
     #first-bottom,
-    #second-bottom,
-    #first-bottom-title{
+    #second-bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 550px;
+        min-width: 550px;
+        justify-content: space-between;
+        min-height: fit-content;
+        max-height: fit-content;
+    }
 
+    #first-bottom-options{
+        margin-left: 0px;
+    }
+
+    #second-bottom iframe{
+        max-width: 550px;
+        height: 320px;
+        margin-bottom: 20px;
+    }
+
+    #details{
+        align-self: center;
+        margin-left: 0px;
     }
 
 }
@@ -703,6 +724,21 @@
         min-width: 400px;
     }
 
-    
+    #second-bottom iframe{
+        max-width: 450px;
+        height: 220px;
+    }
+
+    #first-bottom,
+    #second-bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 450px;
+        min-width: 450px;
+        justify-content: space-between;
+        min-height: fit-content;
+        max-height: fit-content;
+    }
 
 }
