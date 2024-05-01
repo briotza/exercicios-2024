@@ -439,7 +439,7 @@
     font-size: 16px;
 }
 
-#fake-topic{
+.fake-topic{
     margin-top: 20px;
     max-width: 1140px;
     min-width: 1140px;
@@ -450,7 +450,7 @@
     padding-top: 10px;
 }
 
-#fake-topic span{
+.fake-topic span{
     color: #ED7839;
     font-size: 18px;
     font-family: "Quicksand", sans-serif;
@@ -459,7 +459,7 @@
     padding-left: 15px;
 }
 
-#fake-topic p{
+.fake-topic p{
     color: #4D4D4D;
     font-size: 16px;
     font-family: "Quicksand", sans-serif;
@@ -467,4 +467,14 @@
     margin-bottom: 15px;
     padding-right: 15px;
     padding-left: 15px;
+}
+
+.interactions{
+    display: flex;
+    flex-direction: row;
+}
+
+.interactions img {
+    height: 20px;
+    margin-left: 15px;
 }
