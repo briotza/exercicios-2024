@@ -27,9 +27,11 @@
     </div>
     <div id="main">
         <div id="hidden-sidebar">
-            <button id="btn-open-sidebar"><img src="assets/menu-icon.png" alt="menu-icon" style="height: 25px;">SLACA 2019</button>
+            <button id="btn-open-sidebar" (click)="openHiddenBar()">
+                <img src="assets/menu-icon.png" alt="menu-icon" style="height: 25px;">SLACA 2019
+              </button>
         </div>
-        <div id="navigation">
+        <div id="navigation" *ngIf="hiddenBar">
             <button>
                 <p>Apresentação</p>
             </button>

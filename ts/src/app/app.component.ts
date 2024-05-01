@@ -13,6 +13,7 @@ export class AppComponent {
   topicSent = false;
   topicClosed = true;
   topicOpen = false;
+  hiddenBar = false;
 
   readMore() {
     this.showMore = !this.showMore;
@@ -36,5 +37,9 @@ export class AppComponent {
   closeTopic() {
     this.topicClosed = true;
     this.topicOpen = false;
+  }
+
+  openHiddenBar(){
+    this.hiddenBar = !this.hiddenBar;
   }
 }
