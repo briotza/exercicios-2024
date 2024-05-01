@@ -283,11 +283,24 @@
     cursor: pointer;
 }
 
-.fourth-bottom{
+#fourth-bottom{
     display: flex;
     flex-direction: column;
-    border: 2px solid lightgray;
     max-width: 1070px;
     min-width: 1070px;
+    
+}
+
+#discussions{
+    border: 2px solid lightgray;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+    max-width: 1070px;
+    min-width: 1070px;
+}
+
+#ideas{
     
 }
