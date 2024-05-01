@@ -638,10 +638,11 @@
         max-height: fit-content;
     }
 
-    #small-top-title, #big-top-title{
+    #small-top-title, #big-top-title {
         font-size: smaller;
         max-width: 400px;
         min-width: 400px;
+        text-align: center;
         
     }
 
@@ -655,6 +656,16 @@
         align-items: center;
     }
     
+    #first-bottom-title{
+        max-width: 500px;
+        min-width: 500px;
+    }
+
+    #first-bottom,
+    #second-bottom,
+    #first-bottom-title{
+
+    }
 
 }
 
@@ -687,7 +698,10 @@
         margin-left: 20px;
     }
 
-    
+    #first-bottom-title{
+        max-width: 400px;
+        min-width: 400px;
+    }
 
     
 
