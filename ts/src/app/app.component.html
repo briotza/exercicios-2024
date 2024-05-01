@@ -100,7 +100,7 @@
                 <div class="topic-title">Resumo</div>
                 <div id="summary-content">
                     <p>
-                        <span *ngIf="showMore">
+                        
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor,
                             mollis
                             felis ut,
@@ -115,11 +115,13 @@
                             lobortis
                             et non lorem.
                             Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros.
-                            <br>
+                            
                             Fusce vitae luctus dui. Donec id euismod mauris, in volutpat urna. Proin dapibus consequat
                             feugiat. Proin
                             dictum justo arcu, quis vestibulum augue lacinia quis. Sed dignissim dui nulla, ut faucibus
-                            mauris sodales id.
+                            mauris sodales id.<button class="btn-show-more" id="read-more-btn" (click)="readMore()">
+                                {{ showMore ? '' : 'ver mais' }}
+                            </button><br><br>
                             Aliquam erat volutpat. Maecenas dolor enim, tincidunt id elit non, suscipit interdum turpis.
                             Etiam finibus
                             urna libero, eget interdum eros volutpat ullamcorper. Pellentesque et pretium lorem. Aenean
@@ -154,45 +156,17 @@
                             Aliquam at
                             malesuada arcu. Aliquam erat volutpat. Donec varius ipsum purus, ut vehicula purus placerat
                             vitae. Lorem ipsum
-                            dolor sit amet, consectetur adipiscing elit.<button class="btn-see-less" id="read-less-btn" (click)="readMore()">ver menos</button>
-                        </span>
-                        <span *ngIf="!showMore">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor,
-                            mollis
-                            felis ut,
-                            commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. Fusce
-                            auctor
-                            eros sed
-                            magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet.
-                            Donec
-                            finibus nisi
-                            tellus, ut viverra lorem vestibulum ut.Phasellus condimentum orci id leo condimentum
-                            lobortis
-                            et non lorem.
-                            Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros.
-                            <button class="btn-show-more" id="read-more-btn" (click)="readMore()">ver mais</button>
-                            <br>
-                        </span>
-
+                            dolor sit amet, consectetur adipiscing elit.<button class="btn-see-less" id="read-more-btn" (click)="readMore()">
+                                {{ showMore ? 'ver menos' : 'Ler mais' }}
+                              </button><br><br>
                     </p>
+                      
+                        
                 </div>
 
             </div>
             <div id="fourth-bottom">
-                <div class="topic-title">Discussões</div>
-                <div id="discussions">
-                    <div id="ideas">
-                        <span>Compartilhe suas ideias ou dúvidas com os autores!</span>
-                        <div id="ideas-images">
-                            <img src="assets/colab.jpeg" alt="simbolo-colaboração">
-                            <img src="assets/qa.jpeg" alt="símbolo-QA">
-                            <img src="assets/ideia.jpeg" alt="símbolo-ideias">
-                        </div>
-                        <p>Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus
-                            questionamentos ou sugestões para o autor!</p>
-                            <button class="btn-create-topic">+ criar tópico</button>
-                    </div>
-                </div>
+                
 
             </div>
         </div>

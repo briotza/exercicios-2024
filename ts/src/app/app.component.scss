@@ -247,6 +247,7 @@
     padding-block: 10px;
 }
 
+
 #third-bottom{
     display: flex;
     max-width: 1070px;
@@ -254,7 +255,9 @@
     max-height: 189px;
     flex-direction: column;
     margin-top: 30px;
+    overflow: hidden;
     transition: max-height 0.3s ease;
+   
 }
 
 #summary-content{
@@ -266,7 +269,7 @@
     padding: 15px;
 }
 
-.third-bottom.expanded {
+#third-bottom.expanded {
     max-height: none;
 }
 
@@ -277,4 +280,11 @@
     font-weight: bold;
     font-family: "Quicksand", sans-serif;
     cursor: pointer;
+}
+
+.fourth-bottom{
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 189px;
 }
