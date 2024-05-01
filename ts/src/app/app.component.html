@@ -200,7 +200,9 @@
                             tópico for respondido!</p>
                         <p style="color: #F48F44; text-decoration: underline; margin-bottom: 30px;">Descubra outros
                             trabalhos</p>
-                        <button class="btn-create-topic" (click)="createTopic()">criar novo tópico</button>
+                        <div class="relative" style="position: relative;">
+                            <button class="btn-create-new-topic" (click)="createTopic()">criar novo tópico</button>
+                        </div>
                     </div>
                     <div id="relative" style="position: relative; align-items: center; justify-content: center;">
                         <div id="waiting-feedback" *ngIf="!createTopicClicked && topicSent">
