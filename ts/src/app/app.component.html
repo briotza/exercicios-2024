@@ -195,11 +195,11 @@
                         <p style="color: #F48F44; text-decoration: underline; margin-bottom: 30px;">Descubra outros trabalhos</p>
                         <button class="btn-create-topic" (click)="createTopic()">criar novo tópico</button>
                     </div>
-                    <div id="relative">
+                    <div id="relative" style="position: relative; align-items: center; justify-content: center;">
                         <div id="waiting-feedback" *ngIf="!createTopicClicked && topicSent">
-                            <img src="assets/enviado.jpeg" alt="check">
+                            <img src="assets/enviado.jpeg" alt="check" style="margin-left: 125px; margin-top: 25px;">
                             <p>Aguardando feedback dos autores</p>
-                            <span>Editar tópico</span>
+                            <span style="margin-left: 95px">Editar tópico</span>
                         </div>
                     </div>
                 </div>
