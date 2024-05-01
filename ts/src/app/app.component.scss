@@ -335,14 +335,22 @@
 }
 
 #image-ideas img {
-    margin: 20px
+    margin: 20px;
+    width: 50px;
 }
-
-.ideas p {
+#ideas p {
     font-family: "Quicksand", sans-serif;
     color: #595959;
     font-size: 16px;
-    
+    padding-inline: 30px;
+    width: 700px;
+    text-align: center;
+}
+
+.central {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn-create-topic {
@@ -380,6 +388,7 @@
     flex-direction: column;
     border-bottom: 2px solid #BFBFBF;
     padding: 18px;
+    margin-inline: 15px;
 }
 
 #suggestion span{
@@ -435,7 +444,8 @@
     align-items: center;
     justify-content: center;
     border-bottom: 2px solid #BFBFBF;
-    padding-bottom: 20px
+    padding-bottom: 20px;
+    margin-inline: 15px;
 }
 
 #topic-sent span{
