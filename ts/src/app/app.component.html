@@ -227,9 +227,9 @@
                         </div>
                     </div>
 
-                    <button class="answered-topic">
+                    <button class="answered-topic" (click)="closeTopic()" *ngIf="!topicClosed && topicOpen">
                         <span>Assunto da pergunta aparece aqui</span>
-                        <p><strong>Carlos Henrique Santos</strong></p>
+                        <p style="font-size: 14px; color: #5C5C5C;"><strong>Carlos Henrique Santos</strong></p>
                         <p>Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto
                             de processo formativo situado impacto de processo formativo processo...</p>
                         <div class="interactions">
@@ -239,6 +239,8 @@
                             <p style="color: #757575;">1 respostas</p>
                         </div>
                     </button>
+
+                    
                 </div>
                 
             </div>
