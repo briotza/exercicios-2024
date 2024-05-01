@@ -699,7 +699,7 @@
         min-height: 300px;
     }
 
-    #fourth-bottom, #discussions, .central {
+    #fourth-bottom, #discussions, .central, #footer {
         max-width: 550px;
         min-width: 550px;
     }
@@ -714,6 +714,11 @@
         margin-left: 20px;
         top: 20px
     }
+
+    #footer{
+        margin-top: 5px;
+    }
+
 
 }
 
