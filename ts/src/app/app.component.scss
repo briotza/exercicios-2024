@@ -728,7 +728,6 @@
         min-width: 510px;
         max-width: 510px;
         height: auto;
-
     }
 
     #top{
@@ -779,6 +778,22 @@
         min-width: 450px;
         justify-content: space-between;
         min-height: 350px;
+    }
+
+    #fourth-bottom, #discussions, .central, #footer {
+        max-width: 450px;
+        min-width: 450px;
+    }
+
+    #ideas{
+        max-width: 416px;
+        min-width: 416px;
+    }
+
+    #waiting-feedback{
+        left: 70px;
+        margin-left: 0px;
+        top: 20px
     }
 
 }
