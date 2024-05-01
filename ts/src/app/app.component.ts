@@ -11,6 +11,8 @@ export class AppComponent {
   showIdeas = true;
   createTopicClicked = false;
   topicSent = false;
+  topicClosed = true;
+  topicOpen = false;
 
   readMore() {
     this.showMore = !this.showMore;
@@ -24,5 +26,15 @@ export class AppComponent {
   send() {
     this.createTopicClicked = false;
     this.topicSent = true;
+  }
+
+  openTopic() {
+    this.topicClosed = false;
+    this.topicOpen = true;
+  }
+
+  closeTopic() {
+    this.topicClosed = true;
+    this.topicOpen = false;
   }
 }
