@@ -257,20 +257,21 @@
     margin-top: 30px;
     overflow: hidden;
     transition: max-height 0.3s ease;
+   margin-bottom: 30px;
+   border-bottom: 2px solid lightgray;
    
 }
 
-#summary-content{
-    border: 2px solid lightgray;
-}
 #summary-content p{
     font-size: 14px;
     font-family: "Quicksand", sans-serif;
     padding: 15px;
+    border: 2px solid lightgray;
 }
 
 #third-bottom.expanded {
     max-height: none;
+    border-bottom: none;
 }
 
 .btn-show-more, .btn-see-less{
@@ -285,6 +286,6 @@
 .fourth-bottom{
     display: flex;
     flex-direction: column;
+    border: 2px solid lightgray;
     
-    margin-top: 189px;
 }
