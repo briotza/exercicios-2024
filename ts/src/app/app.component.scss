@@ -699,6 +699,16 @@
         min-height: 300px;
     }
 
+    #fourth-bottom, #discussions, .central {
+        max-width: 550px;
+        min-width: 550px;
+    }
+
+    #ideas{
+        max-width: 516px;
+        min-width: 516px;
+    }
+
 }
 
 @media only screen and (max-width: 510px) {
