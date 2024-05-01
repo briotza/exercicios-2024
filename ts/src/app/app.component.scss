@@ -688,6 +688,13 @@
         margin-left: 0px;
     }
 
+    #third-bottom{
+        max-width: 550px;
+        min-width: 550px;
+        justify-content: space-between;
+        min-height: 300px;
+    }
+
 }
 
 @media only screen and (max-width: 510px) {
