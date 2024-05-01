@@ -309,3 +309,35 @@
     border-bottom: 2px solid lightgray;
     padding-bottom: 20px
 }
+
+#ideas span {
+    font-family: "Roboto", sans-serif;
+    color: #ED7839;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+#image-ideas img {
+    margin: 20px
+}
+
+.ideas p {
+    font-family: "Quicksand", sans-serif;
+    color: #595959;
+    font-size: 16px;
+    
+}
+
+.btn-create-topic {
+    background-image: linear-gradient(to bottom, #FFB354, #EE7A3A);
+    color: #FFFFFF;
+    font-family: "Quicksand", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 1px;
+    height: 34px;
+    cursor: pointer;
+}
